@@ -10,7 +10,6 @@
 ## Как виглялит админ панель магазина
 <p align="center"><a href="https://raw.githubusercontent.com/xtarantulz/shop-yii2/master/frontend/web/demo/admin/1.jpg"><img src="https://raw.githubusercontent.com/xtarantulz/shop-yii2/master/frontend/web/demo/admin/1.jpg"></a></p>
 <p align="center"><a href="https://raw.githubusercontent.com/xtarantulz/shop-yii2/master/frontend/web/demo/admin/2.jpg"><img src="https://raw.githubusercontent.com/xtarantulz/shop-yii2/master/frontend/web/demo/admin/2.jpg"></a></p>
-<p align="center"><a href="https://raw.githubusercontent.com/xtarantulz/shop-yii2/master/frontend/web/demo/admin/3.jpg"><img src="https://raw.githubusercontent.com/xtarantulz/shop-yii2/master/frontend/web/demo/admin/3.jpg"></a></p>
 <p align="center"><a href="https://raw.githubusercontent.com/xtarantulz/shop-yii2/master/frontend/web/demo/admin/4.jpg"><img src="https://raw.githubusercontent.com/xtarantulz/shop-yii2/master/frontend/web/demo/admin/4.jpg"></a></p>
 <p align="center"><a href="https://raw.githubusercontent.com/xtarantulz/shop-yii2/master/frontend/web/demo/admin/5.jpg"><img src="https://raw.githubusercontent.com/xtarantulz/shop-yii2/master/frontend/web/demo/admin/5.jpg"></a></p>
 <p align="center"><a href="https://raw.githubusercontent.com/xtarantulz/shop-yii2/master/frontend/web/demo/admin/6.jpg"><img src="https://raw.githubusercontent.com/xtarantulz/shop-yii2/master/frontend/web/demo/admin/6.jpg"></a></p>
