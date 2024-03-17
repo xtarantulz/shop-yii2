@@ -1,0 +1,131 @@
+.cd-accordion-menu {
+    background: #4d5158;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden
+}
+
+.cd-accordion-menu ul {
+    display: none;
+    position: relative;
+}
+
+.cd-accordion-menu li {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.cd-accordion-menu label, .cd-accordion-menu a {
+    position: relative;
+    display: block;
+    padding: 5px 5px 5px 30px;
+    background: #4d5158;
+    box-shadow: inset 0 -1px #555960;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.no-touch .cd-accordion-menu label:hover, .no-touch .cd-accordion-menu a:hover {
+    background: #52565d;
+}
+
+.cd-accordion-menu label::before, .cd-accordion-menu a::after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.cd-accordion-menu a::after {
+    right: 10px;
+    background: url(../img/cd-icons.svg) no-repeat -48px 0;
+}
+
+.cd-accordion-menu label {
+    cursor: pointer;
+}
+
+.cd-accordion-menu label::before {
+    background-image: url(../img/cd-icons.svg);
+    background-repeat: no-repeat;
+}
+
+.cd-accordion-menu label::before {
+    left: 5px;
+    background-position: 0 0;
+    -webkit-transform: translateY(-50%) rotate(-90deg);
+    -moz-transform: translateY(-50%) rotate(-90deg);
+    -ms-transform: translateY(-50%) rotate(-90deg);
+    -o-transform: translateY(-50%) rotate(-90deg);
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+.cd-accordion-menu li.active > label::before {
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.cd-accordion-menu li.active > ul {
+    display: block;
+}
+
+.cd-accordion-menu ul label,
+.cd-accordion-menu ul a {
+    background: #35383d;
+    box-shadow: inset 0 -1px #41444a;
+}
+
+.cd-accordion-menu ul label:hover,
+.cd-accordion-menu ul a:hover {
+    background: #3c3f45;
+}
+
+.cd-accordion-menu > li:last-of-type > label,
+.cd-accordion-menu > li:last-of-type > a,
+.cd-accordion-menu > li > ul > li:last-of-type label,
+.cd-accordion-menu > li > ul > li:last-of-type a {
+    box-shadow: none;
+}
+
+.cd-accordion-menu.animated label::before {
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.cd-accordion-menu > li > ul > li > label, .cd-accordion-menu > li > ul > li > a {
+    padding-left: 55px;
+}
+
+.cd-accordion-menu > li > ul > li > label:before, .cd-accordion-menu > li > ul > li > a:before {
+    left: 30px;
+}
+
+.cd-accordion-menu > li > ul > li > ul > li > label, .cd-accordion-menu > li > ul > li > ul > li > a {
+    padding-left: 80px;
+}
+
+.cd-accordion-menu > li > ul > li > ul > li > label:before, .cd-accordion-menu > li > ul > li > ul > li > a:before {
+    left: 55px;
+}
+
+.cd-accordion-menu > li > ul > li > ul > li > ul > li > label, .cd-accordion-menu > li > ul > li > ul > li > ul > li > a {
+    padding-left: 105px;
+}
+
+.cd-accordion-menu > li > ul > li > ul > li > ul > li > label:before, .cd-accordion-menu > li > ul > li > ul > li > ul > li > a:before {
+    left: 80px;
+}

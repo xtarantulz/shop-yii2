@@ -1,0 +1,123 @@
+/*цветовая схема админки*/
+body {
+    background-color: #0F2439;
+}
+
+body.login {
+    background-color: #0F2439;
+    color: lightblue;
+}
+
+body.login a {
+    color: white;
+}
+
+body.login .login_content {
+    text-shadow: none;
+}
+
+body.login .help-block {
+    color: coral;
+}
+
+.login_content form input[type="text"], .login_content form input[type="email"], .login_content form input[type="password"] {
+    box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none
+}
+
+.nav_title {
+    background-color: #041429;
+}
+
+.sidebar-footer {
+    background-color: transparent;
+}
+
+.left_col {
+    background-color: #0F2439;
+}
+
+.nav_menu {
+    background-color: #0F2439;
+}
+
+.nav.navbar-nav > li > a {
+    color: lightblue !important;
+}
+
+.top_nav .nav > li > a:focus, .top_nav .nav > li > a:hover, .top_nav .nav .open > a, .top_nav .nav .open > a:focus, .top_nav .nav .open > a:hover {
+    background: linear-gradient(#334556, #2C4257), #2A3F54;
+    color: white !important;
+}
+
+.navbar-nav .open .dropdown-menu {
+    background: linear-gradient(#334556, #2C4257), #2A3F54;
+}
+
+.dropdown-menu > li > a {
+    color: lightblue;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+#menu_toggle {
+    color: lightblue;
+}
+
+.sidebar-footer a {
+    background-color: #041429;
+    color: lightblue;
+}
+
+.sidebar-footer a:hover, .sidebar-footer a:focus {
+    color: white;
+}
+
+.nav.side-menu > li > a, .nav.child_menu > li > a {
+    color: lightblue;
+}
+
+.select2-container--krajee .select2-selection--multiple .select2-search--inline .select2-search__field {
+    width: 100% !important;
+}
+
+.iconpicker-popover.popover {
+    width: 233px;
+}
+
+.grid-view > .panel {
+    margin-bottom: 0;
+}
+
+.content-wrapper .content {
+    padding-bottom: 20px;
+}
+
+.product-form #product-description {
+    height: 180px;
+}
+
+ul.preview li a img{
+    height: 136px;
+    margin-bottom: 10px;
+}
+ul.preview {
+    margin-bottom: 0;
+    min-height: 145px;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+    vertical-align: middle;
+}
+
+.multiple-input-list.table-renderer .form-group{
+    margin-bottom: 10px !important;
+}
+
+.multiple-input-list.table-renderer .list-cell__button .js-input-remove{
+    margin-bottom: 10px !important;
+}
